@@ -1,5 +1,5 @@
 sudo "export PATH=$PATH:/opt/nodejs/current/bin"
-sudo "echo $PATH"
+info `echo $PATH`
 sudo "emerge -n =net-libs/nodejs-0.10.28"
 sudo "eselect nodejs set 0.10.28"
 sudo "ln -nfs /opt/nodejs/0.10.28 /opt/nodejs/current"
