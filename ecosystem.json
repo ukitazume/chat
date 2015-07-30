@@ -3,11 +3,11 @@
       "name"      : "API",
       "script"    : "app.js",
       "env": {
-            "COMMON_VARIABLE": "true"
+            "COMMON_VARIABLE": "true",
+            "PORT": "6000"
           },
       "env_production" : {
-            "NODE_ENV": "production",
-            "PORT": "6000"
+            "NODE_ENV": "production"
           }
     }]
 }
